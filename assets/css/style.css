@@ -13,7 +13,7 @@ body {
   background-color: #040404;
   color: #fff;
   position: relative;
-  background: transparent;
+ 
 }
 
 body::before {
@@ -21,6 +21,7 @@ body::before {
   position: fixed;
   background: #040404 url("../img/bg.jpg") top right no-repeat;
   background-size: cover;
+  background: rgba(0, 0, 0, 0.70);
   left: 0;
   right: 0;
   top: 0;
